@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "db:migrate": "sequelize db:migrate",
+    "db:migrate:undo": "sequelize db:migrate:undo",
+    "watch": "babel-watch -L src/index.js"
+  },
+  "devDependencies": {
+    "babel-watch": "^7.6.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.0",
+    "apollo-client": "^2.6.10",
+    "apollo-server": "^3.4.0",
+    "apollo-server-express": "^3.6.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "fs": "^0.0.1-security",
+    "got": "^11.8.2",
+    "graphql": "^16.0.1",
+    "graphql-tools": "^8.2.0",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.8.0",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
+  }
+}
