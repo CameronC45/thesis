@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "express-jwt": "^6.1.0",
     "fs": "^0.0.1-security",
-    "got": "^11.8.2",
+    "got": "^11.8.5",
     "graphql": "^16.0.1",
     "graphql-tools": "^8.2.0",
     "graphql-upload": "^13.0.0",
